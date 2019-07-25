@@ -35,12 +35,13 @@ export default Vue.component('home', {
         FormularioTarefa,
         TabelaTarefas
     },
+    // Computed
     computed: {
         tituloBotao: function () {
             return this.exibirFormulario ? 'Voltar' : 'Nova Tarefa';
         }
     },
-    
+    // metodos
     methods: {
         formatarData(data: string) {
             let temp = new Date(data);
