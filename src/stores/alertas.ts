@@ -11,6 +11,7 @@ const module: Module<any, any> = {
             icon: ''
         }
     },
+    
     mutations:{
         mutationOpenSnackbar(state, payload) {
             state.snackbar.message = payload.message;
