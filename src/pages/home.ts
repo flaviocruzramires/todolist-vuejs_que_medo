@@ -20,7 +20,6 @@ export default Vue.component('home', {
                 </v-icon>
             </v-btn>
         </v-layout>
-            
 
         <form-tarefa v-if="exibirFormulario"></form-tarefa>
         <tabela-tarefas @editar="exibirFormulario = true" v-else="exibirFormulario"></tabela-tarefas>
