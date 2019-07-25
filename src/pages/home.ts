@@ -40,6 +40,7 @@ export default Vue.component('home', {
             return this.exibirFormulario ? 'Voltar' : 'Nova Tarefa';
         }
     },
+    
     methods: {
         formatarData(data: string) {
             let temp = new Date(data);
